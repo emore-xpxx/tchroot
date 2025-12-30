@@ -13,5 +13,5 @@ mount --rbind /dev "$1"/dev
 mount --make-rslave "$1"/dev
 mount --bind /run "$1"/run
 mount --make-slave "$1"/run
-chroot "$1" "$2"
 printf "%b>>%b Entering chroot %s...\n" "$GREEN" "$STOP" "$1"
+chroot "$1" "$2"
