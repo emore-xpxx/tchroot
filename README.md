@@ -26,7 +26,7 @@ tchroot /mnt/example /bin/bash
 
 ## Images
 ![1.png](assets/1.png)
-^ Chrooting `/` with `tchroot`.
+^ Chrooting into `/` with `tchroot`.
 
 ## License
 **MIT** (**X11**). See [LICENSE.md](LICENSE.md) for details.
